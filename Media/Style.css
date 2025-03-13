@@ -1,0 +1,107 @@
+@font-face {
+    font-family: FuturaT;
+    src: url(Fonts/FuturaT_Bold.ttf)
+}
+
+@font-face {
+    font-family: KanitBold;
+    src: url(Fonts/Kanit-Bold.ttf)
+}
+
+#ColorSelector {
+    display: block;
+    align-content: center;
+    background: linear-gradient(180deg ,wheat, #cdb5b5);
+    width: 55vw;
+    height: 50vh;
+    border-style: none;
+    border-radius: 30px;
+    margin-top: 2%;
+    box-shadow: 10px 8px 20px 3px rgb(0 0 0 / 0.3);
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#TopColorInput, #BottomColorInput, #SubmitHexButton, #ColorRotationInput {
+    margin-top: 30px;
+}
+
+#SubmitHexButton {
+    margin-top: 30px;
+}
+
+#MainBody {
+    background: linear-gradient(white, black);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#ShowUIButton {
+    height: fit-content;
+    width: fit-content;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    display: none;
+}
+
+input {
+    font-family: FuturaT;
+    font-size: 15px;
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    width: 100%;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border-style: none;
+	border-radius: 10px;
+}
+
+h1 {
+    font-family: FuturaT;
+    font-size: 40px;
+    color: black;
+}
+
+h2 {
+    font-family: FuturaT;
+    font-size: 20px;
+    color: black;
+}
+
+button {
+    background-color: white;
+    font-family: KanitBold;
+    border-style: none;
+    border-radius: 10px;
+    height: 10%;
+    width: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dfd7d7;
+    transition: 0.1s;
+}
+
+button:active {
+    background-color: #ebdfdf;
+    transition: 0.01s;
+}
